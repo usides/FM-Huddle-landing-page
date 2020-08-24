@@ -17,6 +17,11 @@ html {
   margin: 0 auto;
 }
 
+.container2 {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
 #first {
   background-image: url("../img/bg-hero-desktop.svg");
   background-color: #ebfbff;
@@ -83,7 +88,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 1rem 4rem 4rem 4rem;
+  padding: 1rem 4rem 2.5rem 4rem;
 }
 
 #first .info-block .left {
@@ -146,4 +151,65 @@ html {
 
 .attribution a {
   color: #3e52a3;
+}
+
+#second {
+  background-color: #fff;
+  padding: 9rem 4rem 5rem 4rem;
+}
+
+#second .container2 .promo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.4rem 2rem 2.5rem 7rem;
+  -webkit-box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+#second .container2 .promo-block .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+}
+
+#second .container2 .promo-block .left h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+#second .container2 .promo-block .left p {
+  margin-top: 0.8rem;
+  line-height: 1.5rem;
+  color: #808d99;
+}
+
+#second .container2 .promo-block .right {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2 1;
+          flex: 1.2 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#second .container2 .promo-block .right img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
 }
