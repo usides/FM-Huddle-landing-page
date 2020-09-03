@@ -31,3 +31,9 @@ html {
   max-width: 1240px;
   margin: 0 auto;
 }
+
+@mixin media-xs {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
