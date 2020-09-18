@@ -50,6 +50,87 @@
     }
   }
 
+  #second {
+    padding: 3rem 2rem 0rem 2rem;
+    .container2 {
+      .promo-block {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1.5rem 2.5rem 1.5rem;
+        margin-bottom: 2.2rem;
+        text-align: center;
+        .left {
+          display: block;
+          margin-top: 2rem;
+        }
+        .right {
+          display: block;
+          margin-left: 0;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      .promo-block-rev {
+        flex-direction: column;
+
+        .right {
+          display: block;
+          margin-top: 2rem;
+          h2 {
+            font-size: 1.6rem;
+          }
+          p {
+            margin-top: 0.5rem;
+          }
+        }
+        .left {
+          display: block;
+          margin-top: 0;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  #promo {
+    max-width: 14rem;
+    margin: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    position: relative;
+    top: 2.5rem;
+    z-index: 1;
+    h2 {
+      font-family: $heading;
+      font-weight: $medium;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    a {
+      padding: 1.5rem 2rem;
+      display: block;
+      max-width: 19rem;
+      border-radius: 45px;
+      background-color: $primary;
+      font-weight: $bold;
+      font-size: 0.8rem;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      margin: auto;
+      margin-top: 2rem;
+      box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.15);
+    }
+  }
+
   .attribution {
     font-size: 11px;
     text-align: center;
@@ -59,35 +140,35 @@
   }
 
   footer {
-    background-color: $cyandark;
-    padding-top: 10rem;
+    margin-top: -2rem;
+    padding-top: 9rem;
     padding-bottom: 4rem;
     .container2 {
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
       .block-container {
         margin-top: 2rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
+        flex-direction: column;
         .contact {
           flex: 2 1;
           display: flex;
           flex-direction: column;
           color: $cyanpale;
           font-size: 0.9rem;
-          margin-right: 2rem;
+          margin-right: 0rem;
           .address {
             display: flex;
             max-width: 22rem;
             div {
-              margin-right: 1.5rem;
+              margin-right: 1rem;
               margin-top: 0.2rem;
             }
           }
           .phone {
-            margin-top: 1.5rem;
+            margin-top: 1rem;
             display: flex;
             div {
               margin-right: 1.5rem;
@@ -95,7 +176,7 @@
             }
           }
           .email {
-            margin-top: 1.5rem;
+            margin-top: 1rem;
             display: flex;
             div {
               margin-right: 1.5rem;
@@ -104,6 +185,7 @@
           }
         }
         .menu1 {
+          margin-top: 2rem;
           flex: 1 1;
           display: flex;
           flex-direction: column;
@@ -116,6 +198,7 @@
           }
         }
         .menu2 {
+          margin-top: 1rem;
           flex: 1 1;
           display: flex;
           flex-direction: column;
@@ -128,9 +211,11 @@
           }
         }
         .social {
+          margin-top: 2rem;
           flex: 1 1;
           display: flex;
           flex-wrap: wrap;
+          justify-content: center;
           div {
             &:not(:first-child) {
               margin-left: 0.5rem;
@@ -138,21 +223,16 @@
             a {
               color: $cyanpale;
               text-decoration: none;
-              font-size: 1rem;
-              display: none;
+              font-size: 2rem;
             }
           }
         }
       }
       p.copyr {
-        margin-top: 2rem;
-        color: $cyanpale;
-        text-align: end;
-        font-size: 0.7rem;
+        text-align: center;
       }
       p.attribution {
-        text-align: end;
-        color: $cyanpale;
+        text-align: center;
       }
     }
   }

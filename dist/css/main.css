@@ -484,6 +484,93 @@ footer .container2 p.attribution {
     height: auto;
     width: 100%;
   }
+  #second {
+    padding: 3rem 2rem 0rem 2rem;
+  }
+  #second .container2 .promo-block, #second .container2 .promo-block-rev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3rem 1.5rem 2.5rem 1.5rem;
+    margin-bottom: 2.2rem;
+    text-align: center;
+  }
+  #second .container2 .promo-block .left, #second .container2 .promo-block-rev .left {
+    display: block;
+    margin-top: 2rem;
+  }
+  #second .container2 .promo-block .right, #second .container2 .promo-block-rev .right {
+    display: block;
+    margin-left: 0;
+  }
+  #second .container2 .promo-block .right img, #second .container2 .promo-block-rev .right img {
+    width: 100%;
+    height: auto;
+  }
+  #second .container2 .promo-block-rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #second .container2 .promo-block-rev .right {
+    display: block;
+    margin-top: 2rem;
+  }
+  #second .container2 .promo-block-rev .right h2 {
+    font-size: 1.6rem;
+  }
+  #second .container2 .promo-block-rev .right p {
+    margin-top: 0.5rem;
+  }
+  #second .container2 .promo-block-rev .left {
+    display: block;
+    margin-top: 0;
+  }
+  #second .container2 .promo-block-rev .left img {
+    width: 100%;
+    height: auto;
+  }
+  #promo {
+    max-width: 14rem;
+    margin: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    position: relative;
+    top: 2.5rem;
+    z-index: 1;
+  }
+  #promo h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #promo a {
+    padding: 1.5rem 2rem;
+    display: block;
+    max-width: 19rem;
+    border-radius: 45px;
+    background-color: #ff52bf;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 2rem;
+    -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.15);
+  }
   .attribution {
     font-size: 11px;
     text-align: center;
@@ -492,13 +579,13 @@ footer .container2 p.attribution {
     color: #3e52a3;
   }
   footer {
-    background-color: #00252e;
-    padding-top: 10rem;
+    margin-top: -2rem;
+    padding-top: 9rem;
     padding-bottom: 4rem;
   }
   footer .container2 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   footer .container2 .block-container {
     margin-top: 2rem;
@@ -510,6 +597,10 @@ footer .container2 p.attribution {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   footer .container2 .block-container .contact {
     -webkit-box-flex: 2;
@@ -524,7 +615,7 @@ footer .container2 p.attribution {
             flex-direction: column;
     color: #ebfbff;
     font-size: 0.9rem;
-    margin-right: 2rem;
+    margin-right: 0rem;
   }
   footer .container2 .block-container .contact .address {
     display: -webkit-box;
@@ -533,11 +624,11 @@ footer .container2 p.attribution {
     max-width: 22rem;
   }
   footer .container2 .block-container .contact .address div {
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     margin-top: 0.2rem;
   }
   footer .container2 .block-container .contact .phone {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -547,7 +638,7 @@ footer .container2 p.attribution {
     margin-top: 0.2rem;
   }
   footer .container2 .block-container .contact .email {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -557,6 +648,7 @@ footer .container2 p.attribution {
     margin-top: 0.2rem;
   }
   footer .container2 .block-container .menu1 {
+    margin-top: 2rem;
     -webkit-box-flex: 1;
         -ms-flex: 1 1;
             flex: 1 1;
@@ -576,6 +668,7 @@ footer .container2 p.attribution {
     margin-top: 1rem;
   }
   footer .container2 .block-container .menu2 {
+    margin-top: 1rem;
     -webkit-box-flex: 1;
         -ms-flex: 1 1;
             flex: 1 1;
@@ -595,6 +688,7 @@ footer .container2 p.attribution {
     margin-top: 1rem;
   }
   footer .container2 .block-container .social {
+    margin-top: 2rem;
     -webkit-box-flex: 1;
         -ms-flex: 1 1;
             flex: 1 1;
@@ -603,6 +697,9 @@ footer .container2 p.attribution {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer .container2 .block-container .social div:not(:first-child) {
     margin-left: 0.5rem;
@@ -610,17 +707,12 @@ footer .container2 p.attribution {
   footer .container2 .block-container .social div a {
     color: #ebfbff;
     text-decoration: none;
-    font-size: 1rem;
-    display: none;
+    font-size: 2rem;
   }
   footer .container2 p.copyr {
-    margin-top: 2rem;
-    color: #ebfbff;
-    text-align: end;
-    font-size: 0.7rem;
+    text-align: center;
   }
   footer .container2 p.attribution {
-    text-align: end;
-    color: #ebfbff;
+    text-align: center;
   }
 }
